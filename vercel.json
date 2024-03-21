@@ -1,3 +1,0 @@
-{
-  "routes": [{ "src": "/pasta/*.html", "dest": "/pasta/:path" }]
-}
