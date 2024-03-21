@@ -265,9 +265,7 @@ footer {
         padding: var(--sectionPadding);
         position: relative;
         z-index: 10;
-        margin-left: 2rem;
-        margin-right: 2 rem;
-        margin-bottom: 2rem;
+        margin: 2rem;
     }
     #our-services .cs-container {
         width: 100%;
