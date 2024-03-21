@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./css/style.css" />
+        <link rel="stylesheet" href="./css/contact.css" />
+        <title>4Cantos Limpeza</title>
+      </head>
+      <body>
+        <div class="topnav" id="myTopnav">
+          <a href="index.html" class="active">4Cantos Limpeza</a>
+          <a href="about.html">Sobre nós</a>
+          <a href="gallery.html">Galeria</a>
+          <a href="services.html">Serviços</a>
+          <a href="contact.html">Nos Contate</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+
+        <script>
+          function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+              x.className += " responsive";
+            } else {
+              x.className = "topnav";
+            }
+          }
+        </script>
+
+        <section id="contact-us">
+          <div class="cs-container">
+            <div class="cs-content">
+              <span class="cs-topper">Marque um horário</span>
+              <h2 class="cs-title">Entre em Contato</h2>
+              <p class="cs-text">
+                Estamos ansiosos para ajudá-lo a manter seu espaço impecável!
+                Entre em contato conosco para marcar um horário conveniente para
+                você. Nossa equipe está pronta para atender às suas necessidades
+                de limpeza com eficiência e profissionalismo.
+              </p>
+            </div>
+            <form id="form" name="Contact Form" method="post">
+              <label class="cs-label">
+                Nome
+                <input
+                  class="cs-input"
+                  required
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Nome Completo"
+                />
+              </label>
+              <label class="cs-label">
+                Email
+                <input
+                  class="cs-input"
+                  required
+                  type="text"
+                  id="email"
+                  name="email"
+                  placeholder="nome@gmail.com"
+                />
+              </label>
+              <label class="cs-label">
+                Celular
+                <input
+                  class="cs-input"
+                  required
+                  type="text"
+                  id="phone"
+                  name="phone"
+                  placeholder="(XX) X XXXX-XXXX"
+                />
+              </label>
+              <label class="cs-label">
+                Como você soube da gente
+                <input
+                  class="cs-input"
+                  type="text"
+                  id="find"
+                  name="find-us"
+                  placeholder="Redes sociais, amigo, família..."
+                />
+              </label>
+              <label class="cs-label cs-label-message">
+                Mensagem
+                <textarea
+                  class="cs-input cs-textarea"
+                  required
+                  name="Message"
+                  id="message"
+                  placeholder="Olá, estou interessado(a) em seus serviços..."
+                ></textarea>
+              </label>
+              <button class="cs-button-solid cs-submit" type="submit">
+                Enviar
+              </button>
+            </form>
+            <div class="cs-right-section">
+              <ul class="cs-ul">
+                <li class="cs-li">
+                  <picture class="cs-icon-wrapper">
+                    <img
+                      aria-hidden="true"
+                      src="https://csimg.nyc3.digitaloceanspaces.com/Contact-Page/mail.svg"
+                      alt="mail icon"
+                      class="cs-icon"
+                      width="36"
+                      height="36"
+                      decoding="async"
+                    />
+                  </picture>
+                  <div class="cs-flex-group">
+                    <span class="cs-header">Email</span>
+                    <a href="mailto:support@yourdomain.com" class="cs-link"
+                      >email@gmail.com</a
+                    >
+                  </div>
+                </li>
+                <li class="cs-li">
+                  <picture class="cs-icon-wrapper">
+                    <img
+                      aria-hidden="true"
+                      src="https://csimg.nyc3.digitaloceanspaces.com/Contact-Page/phone.svg"
+                      alt="phone icon"
+                      class="cs-icon"
+                      width="36"
+                      height="36"
+                      decoding="async"
+                    />
+                  </picture>
+                  <div class="cs-flex-group">
+                    <span class="cs-header">Celular</span>
+                    <a href="tel:206-987-6543" class="cs-link"
+                      >(XX) X XXXX-XXXX</a
+                    >
+                  </div>
+                </li>
+                <li class="cs-li">
+                  <picture class="cs-icon-wrapper">
+                    <img
+                      aria-hidden="true"
+                      src="https://csimg.nyc3.digitaloceanspaces.com/Contact-Page/pin.svg"
+                      alt="address icon"
+                      class="cs-icon"
+                      width="36"
+                      height="36"
+                      decoding="async"
+                    />
+                  </picture>
+                  <div class="cs-flex-group">
+                    <span class="cs-header">Address</span>
+                    <a href="" class="cs-link"
+                      ><span class="cs-block">Rua da Limpeza, 1234</span> Limpo
+                      City</a
+                    >
+                  </div>
+                </li>
+              </ul>
+              <picture class="cs-picture">
+                <source
+                  media="(max-width: 600px)"
+                  src="./img/pessoas-limpando.jpg"
+                />
+                <source
+                  media="(min-width: 601px)"
+                  src="./img/pessoas-limpando.jpg"
+                />
+                <img
+                  class="cs-img"
+                  aria-hidden="true"
+                  loading="lazy"
+                  decoding="async"
+                  src="./img/pessoas-limpando.jpg"
+                  alt="google map"
+                  width="462"
+                  height="438"
+                />
+              </picture>
+            </div>
+          </div>
+        </section>
+
+        <footer>
+          <div class="footer-container">
+            <div class="contact">
+              <h3>Contato:</h3>
+              <p>(XX) X XXXX-XXXX</p>
+            </div>
+            <div class="address">
+              <h3>Endereço:</h3>
+              <p>Rua da Limpeza, 1234 - Limpo City</p>
+            </div>
+            <div class="hours">
+              <h3>Horário de Funcionamento:</h3>
+              <p>Seg-Sex: 8h-18h</p>
+            </div>
+            <div class="logo-text">4Cantos Limpeza</div>
+          </div>
+        </footer>
+      </body>
+    </html>
+  </body>
+</html>
