@@ -1,0 +1,65 @@
+
+@media only screen and (min-width: 0rem) {
+    #picture-gallery {
+        padding: var(--sectionPadding);
+        margin: 3rem;
+    }
+    #picture-gallery .cs-container {
+        width: 100%;
+        max-width: 80rem;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: clamp(3rem, 6vw, 4rem);
+        position: relative;
+        padding-bottom: 3rem;
+    }
+    #picture-gallery .cs-content {
+        text-align: left;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-end;
+        gap: 1.5rem;
+        margin-left: 3rem;
+        margin-top: 3rem;
+    }
+    #picture-gallery .cs-title {
+        
+        margin: 0;
+        color: #0056b3;
+        font-family: "Poppins", "serif";
+    }
+
+    #picture-gallery .cs-topper {
+        margin: 0;
+        color: grey;
+        font-family: "Poppins", "serif";
+    }
+
+    #picture-gallery .cs-gallery {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(19.0625rem, 1fr));
+        gap: clamp(1rem, 1.5vw, 1.25rem);
+        position: relative;
+    }
+    #picture-gallery .cs-image {
+        min-height: clamp(16.25rem, 60vw, 20rem);
+        border-radius: 1rem;
+        overflow: hidden;
+        display: block;
+        position: relative;
+    }
+    #picture-gallery .cs-image img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
