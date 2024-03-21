@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/about.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>4Cantos Limpeza</title>
+  </head>
+  <body>
+    <div class="topnav" id="myTopnav">
+      <a href="index.html" class="active">4Cantos Limpeza</a>
+      <a href="about.html">Sobre nós</a>
+      <a href="gallery.html">Galeria</a>
+      <a href="services.html">Serviços</a>
+      <a href="contact.html">Nos Contate</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+
+    <div class="about-us">
+      <div class="about">
+        <h2 class="cs-title">Sobre Nós</h2>
+        <p class="cs-text">
+          Somos uma equipe dedicada a fornecer serviços de limpeza de alta
+          qualidade. Nossa missão é garantir que sua casa ou escritório esteja
+          sempre limpo e organizado, para que você possa aproveitar seu tempo
+          livre ao máximo. Com anos de experiência no setor, nossos
+          profissionais são altamente treinados e comprometidos em superar as
+          expectativas de nossos clientes. Estamos sempre buscando maneiras de
+          melhorar e inovar em nossos serviços para garantir sua total
+          satisfação.
+        </p>
+        <ul class="about-list">
+          <li>Equipe experiente e dedicada;</li>
+          <li>Serviços de alta qualidade;</li>
+          <li>Compromisso com a satisfação do cliente;</li>
+          <li>Inovação contínua.</li>
+        </ul>
+      </div>
+      <div class="image-container">
+        <img src="./img/grupo.jpg" alt="Imagem de exemplo" />
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer-container">
+        <div class="contact">
+          <h3>Contato:</h3>
+          <p>(XX) XXXX-XXXX</p>
+        </div>
+        <div class="address">
+          <h3>Endereço:</h3>
+          <p>Rua da Limpeza, 1234 - Limpo City</p>
+        </div>
+        <div class="hours">
+          <h3>Horário de Funcionamento:</h3>
+          <p>Seg-Sex: 8h-18h</p>
+        </div>
+        <div class="logo-text">4Cantos Limpeza</div>
+      </div>
+    </footer>
+  </body>
+</html>
