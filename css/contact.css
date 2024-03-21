@@ -1,7 +1,7 @@
 @media only screen and (min-width: 0rem) {
   #contact-us {
     padding: var(--sectionPadding);
-    margin: 1.5rem;
+    margin: 2rem;
   }
   #contact-us .cs-container {
     width: 100%;
