@@ -250,6 +250,12 @@ footer {
     font-family: "Timmana", serif;
     font-size: 1.7rem;
     color: white;
+    cursor: default;
+    text-decoration: none;
+}
+
+.logo-text:hover, .logo-text:active, .logo-text:focus, .logo-text:visited {
+    color: white; 
 }
 
 @media only screen and (max-width: 600px) {
@@ -834,5 +840,17 @@ footer {
     }
 }
 
-                                
+.hero-button {
+    display: inline-block; /* Permite que o botão ocupe apenas o espaço necessário */
+    padding: 10px 20px; /* Adiciona espaçamento interno ao botão */
+    background-color: #007bff;; /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+    border-radius: 5px; /* Adiciona bordas arredondadas ao botão */
+}
+
+.hero-button:hover {
+    background-color: #004380; /* Altera a cor de fundo ao passar o mouse sobre o botão */
+}
+                    
                                         
