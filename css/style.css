@@ -841,16 +841,16 @@ footer {
 }
 
 .hero-button {
-    display: inline-block; /* Permite que o botão ocupe apenas o espaço necessário */
-    padding: 10px 20px; /* Adiciona espaçamento interno ao botão */
-    background-color: #007bff;; /* Cor de fundo do botão */
-    color: white; /* Cor do texto do botão */
-    text-decoration: none; /* Remove o sublinhado padrão dos links */
-    border-radius: 5px; /* Adiciona bordas arredondadas ao botão */
+    display: inline-block; 
+    padding: 10px 20px; 
+    background-color: #007bff;; 
+    color: white; 
+    text-decoration: none; 
+    border-radius: 5px; 
 }
 
 .hero-button:hover {
-    background-color: #004380; /* Altera a cor de fundo ao passar o mouse sobre o botão */
+    background-color: #004380; 
 }
                     
                                         
