@@ -1,4 +1,4 @@
-
+# 4Cantos Limpeza
 ## Estrutura do Projeto
 
 - Arquivos HTML: As páginas do site são representadas pelos arquivos index.html, services.html e contact.html. Cada um desses arquivos contém o conteúdo específico da página correspondente.
@@ -49,3 +49,9 @@ Dessa forma, você poderá visualizar e interagir com o projeto localmente usand
 - Adição de um evento de entrada de teclado para restringir o campo de telefone na página de contato a aceitar apenas números.
 
 - Implementação de um evento de mouse (mouseenter e mouseleave) para criar o efeito de zoom nas imagens da página inicial ao passar o mouse sobre elas.
+
+## Melhorias Futuras
+1. Adicionar uma validação de e-mail mais robusta para garantir que os endereços de e-mail inseridos tenham o formato correto.
+2. Integrar API para fornecer funcionalidades adicionais, como um sistema de reservas online.
+
+
