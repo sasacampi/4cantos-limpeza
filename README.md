@@ -20,7 +20,7 @@
 - Criação de um botão na tela inicial que leva para a página de serviços. 
 
 2. Eventos de mouse
-- Efeito de zoom nas imagens da página inicial ao passar o mouse sobre elas. (Eventos de mouse)
+- Efeito de zoom nas imagens da página inicial ao passar o mouse sobre elas. 
 
 3. Eventos de entrada de teclado
 - Validação do campo de telefone para aceitar apenas números e exatamente 11 dígitos na página de contato. 
