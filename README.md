@@ -3,8 +3,8 @@ O site "4 Cantos Limpeza" é um projeto desenvolvido em HTML e CSS para a discip
 
 ## Estrutura do Projeto
 
-4-cantos-limpeza/
 ```
+4-cantos-limpeza/
 ├── index.html
 ├── css/
 │   └── about.css
