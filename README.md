@@ -1,27 +1,34 @@
 # 4Cantos Limpeza
-- O site "4 Cantos Limpeza" é um projeto desenvolvido em HTML e CSS para a disciplina de Programação Web, que apresenta uma empresa especializada em serviços de limpeza. A estrutura do site é composta por um layout responsivo, que se adapta a diferentes tamanhos de tela, e inclui seções como "Sobre Nós", "Serviços" e "Contato". 
+O site "4 Cantos Limpeza" é um projeto desenvolvido em HTML e CSS para a disciplina de Programação Web, que apresenta uma empresa especializada em serviços de limpeza. A estrutura do site é composta por um layout responsivo, que se adapta a diferentes tamanhos de tela, e inclui seções como "Sobre Nós", "Serviços" e "Contato". 
 
 ## Estrutura do Projeto
 
 4-cantos-limpeza/
+```
 ├── index.html
 ├── css/
-│   └── styles.css
+│   └── about.css
+│   └── contact.css
+│   └── gallery.css
+│   └── services.css
+│   └── style.css
 ├── img/
-│   ├── logo.png
-│   ├── service1.jpg
-│   ├── service2.jpg
-│   └── service3.jpg
+│   └── 4cantos.jng
+│   └── bars-solid.svg
+│   └── check.svg
+│   └── grupo.jpg
+│   └── limpeza.jpg
+│   └── mulher-mesa.jpg
+│   └── mulher.jpg
+│   └── pessoas-limpando.jpg
+├── js/
+│   └── script.js
+├── about.html
+├── contact.html
+├── gallery.html
+├── services.html
 └── README.md
-
-- Arquivos HTML: As páginas do site são representadas pelos arquivos index.html, services.html e contact.html. Cada um desses arquivos contém o conteúdo específico da página correspondente.
-
-- Pasta CSS: Contém os arquivos de estilo CSS para estilizar as páginas HTML. O arquivo style.css contém estilos do index.html, enquanto contact.css contém estilos específicos para a página de contato.
-
-- Pasta JS: Aqui estão os arquivos JavaScript que contêm o código para interatividade e manipulação de eventos no site. O arquivo script.js pode conter funções gerais para todo o site, como manipulação de eventos e validação de formulários.
-
-- Pasta Img: Contém todas as imagens usadas no site, como logotipos, fotos e ícones. Essas imagens são referenciadas nos arquivos HTML e CSS conforme necessário para exibição no site.
-
+```
 
 ## Funcionalidades Implementadas
 
