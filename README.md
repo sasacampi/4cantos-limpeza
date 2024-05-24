@@ -1,5 +1,18 @@
 # 4Cantos Limpeza
+- O site "4 Cantos Limpeza" é um projeto desenvolvido em HTML e CSS para a disciplina de Programação Web, que apresenta uma empresa especializada em serviços de limpeza. A estrutura do site é composta por um layout responsivo, que se adapta a diferentes tamanhos de tela, e inclui seções como "Sobre Nós", "Serviços" e "Contato". 
+
 ## Estrutura do Projeto
+
+4-cantos-limpeza/
+├── index.html
+├── css/
+│   └── styles.css
+├── img/
+│   ├── logo.png
+│   ├── service1.jpg
+│   ├── service2.jpg
+│   └── service3.jpg
+└── README.md
 
 - Arquivos HTML: As páginas do site são representadas pelos arquivos index.html, services.html e contact.html. Cada um desses arquivos contém o conteúdo específico da página correspondente.
 
