@@ -56,3 +56,24 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 });
+
+const apiKey = "090d201ef46d4e9f0e5b78c5f9eebf7a";
+const city = "Feira de Santana";
+const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric&lang=pt_br`;
+
+document.addEventListener("DOMContentLoaded", () => {
+  fetch(apiUrl)
+    .then((response) => response.json())
+    .then((data) => {
+      const weatherDescription = data.weather[0].description;
+      const temperature = data.main.temp;
+
+      document.getElementById(
+        "weather-description"
+      ).textContent = `Descrição: ${weatherDescription}`;
+      document.getElementById(
+        "temperature"
+      ).textContent = `Temperatura: ${temperature}°C`;
+    })
+    .catch((error) => console.error("Erro ao obter dados climáticos:", error));
+});
